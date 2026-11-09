@@ -1,0 +1,16 @@
+.env
+data/*
+!data/.gitkeep
+__pycache__/
+.venv/
+.streamlit/secrets.toml
+ 
+# Source documents are large; don't commit them
+pdf/
+*.pdf
+ 
+# PyCharm / JetBrains
+.idea/
+*.iml
+ 
+eval/answers*.txt
